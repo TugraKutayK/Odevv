@@ -1,0 +1,39 @@
+3. Geleneksel veri tabanı sistemi 70 yaşında bir posta memuru gibidir. Postalar geldiğinde bu postaları mahallelere göre sıralarken yanlış sıralama ihtimali yüksek olur ve önemli olan postalar ile önemsizleri karışık sırayla düzenler. Mahalleler değişince ya da evlerin adreslerinde bir değişim olduğunda kendi iş yerinde ki postaları yeni adreslere göre düzeltmesi çok zor ve karmaşık olur. Kendisi 70 yaşında olduğu için ise postanesini koruyamaz, hırsızlık çok olur. Tek başına olduğu için postalar alınmaya geldiğinde işlemler çok uzun sürer. Kısaca yavaş, güvensiz, basit ve güncellenmesi zor bir sistemdir geleneksel veri tabanı sistemi. VTYS ise bir çok kullanıcının sisteme erişmesi için daha idealdir. Kaydedilen verilerin çalınmasına ya da bozulmasına karşın yedekleme ve koruma sistemleri vardır. Farklı diller sayesinde verilerin sorgulanması ve değiştirilmesi daha kolaydır. İki veri arasındaki ilişkileri bu diller sayesinde yönetmek daha kolaydır. Veriler için raporlama yapılabilir bu verileri kısa sürede başka uygulamalar ya da sistemler arasında paylaşılabilir. Tablo, satır ve sütun sayesinde biz insanlar için daha anlaşılabilir olur. Kısaca geleneksel sistem küçük işletme ve sistemler için yeterli olsa da modern çağda yeterlilikleri azdır.
+
+4. Veritabanının görevi kısaca sisteme girilen verilerin düzenli ve organize bir biçimde saklanması, kullanılması ve düzenlenmesini sağlayan bir sistem olmasıdır. Kullanıldığı alanlar ise oyunlar, e-ticaret, sağlık, lojistik, ticaret yani en basiti ile bir işte minimum bir veri girişi olan her şeyde kullanılabilir. 
+
+5. Tablo veritabanında verilerin saklandığı temel yapıdır ve varlık kümesini temsil eder. Sütunlar ve satırlardan oluşur. Satır, diğer bir deyişle kayıt. Satır bir veri kaydıdır, tek bir varlığa ait bütün bilgiler satırda bulunur. Öğrencinin bilgilerini alt alta kayıt edip normalde verilerin düzenli olmasını sağlayan sistemi düzensizleştirmek mantıksızdır, bu şekilde akılda kalabilir. Sütunlar ise az önce örnek verdiğimiz öğrencinin bilgilerini istediğimiz bilgilerle eşleştirmemizi sağlar. Yani aldığımız verilerin özelliklerini tutan kısımdır. 
+
+6  Birincil Anahtar, bir tablodaki her bir satırı benzersiz bir şekilde tanımlayan sütundur. Bu sütundaki değerler tekrarlanamaz ve boş olamaz. Aslında dediğim şey sizin kimlik numaranız diyebilirim. Sonuçta bir kişinin 2 tane kimlik numarası olamayacağına veya kimlik numaranızın olmaması imkansız. Bu özel bir veri olması gerektiği anlamına gelir. Kimlik numarası gibi bir anahtar olmasaydı belki de istanbulda ki bir malikane size miras olarak kalabilirdi. Yabancı anahtar, bir tablodaki bir sütunun, başka bir tablodaki birincil anahtara referans verdiği alandır. Bu, tablolar arasında ilişki kurmak için kullanılır. Kısaca bir müşteri tablosunda size verilen ID'nin başka bir tabloda, mesela siparişler tablosunda sizin verdiğiniz şipariş ile ilişkilendirilmesidir. Yabancı Anahtar tablolar arasında ilişki kurar. Birincil Anahtar bir tablodaki her kaydı benzersiz bir şekilde tanımlar.
+
+7. Veritabanı kullanıcıları, veritabanı ile farklı şekillerde etkileşimde bulunan kişilerdir. Bu kullanıcılar farklı yetki ve sorumluluklara sahiptir.
+
+Veritabanı Yöneticisi: Veritabanının genel yönetiminden sorumludur. Bir okulun öğrenci bilgilerini saklayan veritabanında, verilerin güvenliğini ve yedeklemesini sağlayan kişi veritabanı yöneticisidir
+
+Uygulama Geliştiriciler: Veritabanını kullanan uygulamaları tasarlar ve geliştirir. Mesela bir e-ticaret sitesinde ürünlerin listelendiği bir uygulamayı geliştiren yazılımcılar bu gruba girer.
+
+Son Kullanıcılar: Veritabanını doğrudan veya dolaylı olarak kullanan kişilerdir. Bir banka müşterisi, internet bankacılığı üzerinden kendi hesap bilgilerini görüntüleyen kişiye son kullanıcı diyebiliriz
+
+Sistem Yöneticileri: Veritabanı sunucusunun donanım ve yazılım altyapısını yönetir. Bir şirketin sunucularını yöneten IT personelidir.
+
+Analistler ve Veri Bilimciler: Veritabanından veri çıkarımı yapar, analiz eder ve raporlar oluşturur. Örnek olarak bir market zincirinin satış verilerini analiz eden bir veri bilimci bu gruptadır.
+
+8. 
+
+Yönetici: Tüm verilere erişim, düzenleme, silme, yeni kullanıcı ekleme
+Doktor:	  Kendi hastalarının bilgilerini görüntüleme ve tedavi notlarını düzenleme
+Hemşire:  Görev alanındaki hastaların bilgilerini görüntüleme ve güncelleme
+Hasta:	  Kendi bilgilerini ve randevularını görüntüleme
+
+9. Bir mobilya dükkanınız var diyelim. Bu dükkanda ki mobilyalar veri olsun. Bu dükkanın deposu mobilyaların yani verilerin saklandığı alandır. Bu deponun bir sistem değil bir saklanma alanı olduğu anlamına gelir. Eğer siz depodan bir şey çıkarmak, düzenlemek ya da eklemek istiyorsanız bunu depodan değil çalışanınızdan istemeniz gerekir. Yani depo veritabanı, çalışanınız ise veri tabanı ve yönetim sistemidir kısaca bir yazılımdır. 
+
+10. İlişkisel veri modeli, verilerin tablolar halinde saklandığı bir veritabanı modelidir. Modelde veriler satır ve sütunlardan oluşan tablolar içinde düzenlenir. Her tablo bir varlık veya nesneye ait bilgileri saklar. Tablolar arasındaki ilişkiler birincil anahtar ve yabancı anahtar gibi kavramlarla kurulur. Daha basit haliyle ilişkisel veri modeli, verileri düzenli bir şekilde saklamak ve tablolar arasında bağlantı kurmak için kullanılır. Şöyle düşünebiliriz Bir okul sisteminde "Öğrenciler" tablosu ve "Dersler" tablosu olabilir. Bu iki tablo, öğrencilerin hangi dersleri aldığını göstermek için birbirine bağlanabilir. Bu model verilerin kolayca sorgulanmasını ve düzenlenmesini sağlar.
+
+11. 
+
+Öğrenciler  Öğrenci numarası, adı, soyadı, doğum tarihi gibi bilgiler bulunur.
+Dersler	    Ders kodu, ders adı, öğretmen bilgileri yer alır.
+Notlar	    Öğrenci numarası, ders kodu ve not bilgileri yer alır.
+
+    Öğrenciler tablosu ile Notlar tablosu arasında öğrenci numarası üzerinden ilişki kurulur.
+    Dersler tablosu ile Notlar tablosu arasında ders kodu üzerinden ilişki kurulur.
